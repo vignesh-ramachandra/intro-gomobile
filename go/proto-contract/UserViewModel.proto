@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package prototype;
+
+option java_package = "com.vignesh.demoapp";
+option java_outer_classname = "UserViewModelResponse";
+option optimize_for = LITE_RUNTIME;
+option go_package = "go-viewmodel";
+
+message UserViewModel {
+    string name = 1;
+}
