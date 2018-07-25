@@ -23,7 +23,6 @@
 		1DCFF19B210761E900FF2CE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1DCFF19E210761E900FF2CE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1DCFF1A0210761E900FF2CE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		1DCFF1AA2107678E00FF2CE0 /* BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BridgingHeader.h; sourceTree = "<group>"; };
 		1DCFF1AC21076DD800FF2CE0 /* Demo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Demo.framework; path = Demoapp/lib/Demo.framework; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
@@ -63,7 +62,6 @@
 				1DCFF196210761E700FF2CE0 /* ViewController.swift */,
 				1DCFF198210761E700FF2CE0 /* Main.storyboard */,
 				1DCFF19B210761E900FF2CE0 /* Assets.xcassets */,
-				1DCFF1AA2107678E00FF2CE0 /* BridgingHeader.h */,
 				1DCFF19D210761E900FF2CE0 /* LaunchScreen.storyboard */,
 				1DCFF1A0210761E900FF2CE0 /* Info.plist */,
 			);

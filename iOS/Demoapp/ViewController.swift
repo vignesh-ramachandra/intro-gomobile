@@ -22,23 +22,17 @@ class ViewController: UIViewController {
     }
 
     @IBAction func onButtonTapped(_ sender: UIButton) {
-        
-        DemoGetUserViewModel(DemoResponder())
+        DemoGetUserViewModel(DemoResponder.init())
     }
-    
-//    func onErrorResponse(String)
-    
-    
 }
 
 
-class DemoResponder: DemoAPIResponse {
-    override func onErrorResponse(_ error: String!) {
-        
+@objc class DemoResponder:NSObject, DemoAPIResponseProtocol {
+    func onErrorResponse(_ err: String!) {
     }
     
-    override func onSuccessResponse(_ response: Data!) {
-        
+    func onSuccessResponse(_ response: Data!) {
+    
     }
 }
 
